@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>UseR! 2021 Calendar</title>
+
+<link href="main.min.css" rel="stylesheet">
+<link href="cal.css" rel="stylesheet">
+
+<style>
+
+body .fc { 
+   font-size: 16px;  
+}
+   
+   #top {
+      background: white;
+   }
+</style>
+
+</head>
+<body>
+<div id='top'>
+
+  <div style='float:left'>
+    Timezone:
+    <select id='time-zone-selector'>
+<option value='America/Los_Angeles'>Los Angeles, Pacific Daylight Time (PDT)</option>
+<option value='utc'>Universal Time Coordinated (UTC)</option>
+<option value='Africa/Lagos'>Lagos, West Africa Time (WAT)</option>
+<option value='Europe/Zurich'>Zurich, Central European Summer Time (CEST)</option>   
+      <option value='Asia/Kolkata'>Mumbai, India Standard Time (IST)</option>
+<option value='Australia/Perth'>Perth, Australian West Standard Time (AWST)</option>
+
+    </select>
+  </div>
+  <div style='float:right'>
+
+    <span id='loading'>loading...</span>
+
+  </div>
+
+  <div style='clear:both'></div>
+</div>
+
+<div id='calendar' style='width:100%'></div>
+
+
+<script src="main.min.js"></script>
+<script src="cal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://fullcalendar.io/releases/fullcalendar/3.10.0/lib/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js"></script>
+
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+<script>
+  var x = document.getElementById("time-zone-selector");
+  var option = document.createElement("option");
+option.id = "local"
+  option.value = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  option.innerText = "Local Time Zone";
+  x.add(option, x[0]);
+document.getElementById("local").selected = true; 
+</script>
+</script>
+</body>
+</html>
