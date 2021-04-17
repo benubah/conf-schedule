@@ -1,0 +1,131 @@
+[ {    				"title": "Welcome (PDT)",
+                                "description":"Welcome Session (PDT Time). 2021.07.05 00:15 - 01:15 UTC",
+          				"url": "#",
+					"color":"#1b65b7",
+					"start": "2021-07-05T00:15:00Z",
+"end": "2021-07-05T01:15:00Z"
+				},
+
+{    				"title": "SOCIAL (PDT)",
+                                "description":"SOCIAL PROGRAM. July 5th 01:15 - 02:15 UTC",
+          				"url": "#",
+					"color":"#e6cece",
+					"textColor":"black",
+					"start": "2021-07-05T01:15:00Z",
+"end": "2021-07-05T02:15:00Z"
+				},
+ 
+
+
+{    				"title": "Welcome (AWST)",
+                                "description":"WELCOME SESSION (AWST TIME). July 7th, 07:15 - 08:15 UTC",
+          				"url": "#",
+					"color":"#1b65b7",
+					"start": "2021-07-05T07:15:00Z",
+"end": "2021-07-05T08:15:00Z"
+				},
+
+{    				"title": "SOCIAL (AWST)",
+                                "description":"SOCIAL PROGRAM. July 5th, 08:15 - 09:15 UTC",
+          				"url": "#",
+					"color":"#e6cece",
+					"textColor":"black",
+					"start": "2021-07-05T08:15:00Z",
+"end": "2021-07-05T09:15:00Z"
+				},
+
+{    				"title": "Welcome (CEST)",
+                                "description":"WELCOME SESSION (CEST TIME) July 5th 15:15-16:15 UTC",
+          				"url": "#",
+					"color":"#1b65b7",
+					"start": "2021-07-05T15:15:00Z",
+"end": "2021-07-05T16:15:00Z"
+				},
+
+{    				"title": "SOCIAL (CEST)",
+                                "description":"SOCIAL PROGRAM. July 5th 16:15 - 17:15 UTC",
+          				"url": "#",
+					"color":"#e6cece",
+					"textColor":"black",
+					"start": "2021-07-05T16:15:00Z",
+"end": "2021-07-05T17:15:00Z"
+				},
+
+{    				"title": "CONFERENCE PROGRAM",
+                                "description":"CONFERENCE PROGRAM, July 5th 23:00 - 23:59 UTC",
+          				"url": "#",
+					"color": "#8e7cc3",
+					"start": "2021-07-05T17:30:00Z",
+"end": "2021-07-05T23:59:00Z"
+				},
+{    				"title": "CONFERENCE PROGRAM",
+                                "description":"CONFERENCE PROGRAM. July 6th, 00:00 - 03:45 UTC",
+          				"url": "#",
+					"color": "#8e7cc3",
+					"start": "2021-07-06T00:00:00Z",
+"end": "2021-07-06T03:45:00Z"
+				},
+
+{    				"title": "CONFERENCE PROGRAM",
+                                "description":"CONFERENCE PROGRAM. July 6th 06:30-17:00 UTC",
+          				"url": "#",
+					"color": "#8e7cc3",
+					"start": "2021-07-06T06:30:00Z",
+"end": "2021-07-06T17:00:00Z"
+				},
+
+{    				"title": "SOCIAL",
+                                "description":"SOCIAL PROGRAM. July 6th 05:00 - 06:00 UTC",
+          				"url": "#",
+					"color":"#e6cece",
+					"textColor":"black",
+					"start": "2021-07-06T05:00:00Z",
+"end": "2021-07-06T06:00:00Z"
+				},
+{    				"title": "SOCIAL",
+                                "description":"SOCIAL - mixR PROGRAM. July 6th 18:00 - 19:00 UTC",
+          				"url": "#",
+					"color":"#1b65b7",
+					"start": "2021-07-06T18:00:00Z",
+"end": "2021-07-06T19:00:00Z"
+				},
+{    				"title": "TUTORIALS",
+                                "description":"TUTORIALS. July 7th 00:00 - 23:59 UTC",
+          				"url": "#",
+					"color": "#fffe01",
+					"textColor":"black",
+					"start": "2021-07-07T00:00:00Z",
+"end": "2021-07-07T23:59:00Z"
+				},
+
+{    				"title": "CONFERENCE PROGRAM",
+                                "description":"CONFERENCE PROGRAM. July 8th 00:30-11:00 UTC",
+          				"url": "#",
+					"color": "#8e7cc3",
+					"start": "2021-07-08T00:30:00Z",
+"end": "2021-07-08T11:00:00Z"
+				},
+{    				"title": "SOCIAL",
+                                "description":"SOCIAL PROGRAM. July 8th 12:30 - 13:30 UTC",
+          				"url": "#",
+					"color":"#e6cece",
+					"textColor":"black",
+					"start": "2021-07-08T12:30:00Z",
+"end": "2021-07-08T13:30:00Z"
+				},
+{    				"title": "CONFERENCE PROGRAM",
+                                "description":"CONFERENCE PROGRAM. July 9th 07:00-16:00 UTC",
+          				"url": "#",
+					"color": "#8e7cc3",
+					"start": "2021-07-09T07:00:00Z",
+"end": "2021-07-09T16:00:00Z"
+				},
+{    				"title": "CLOSING AND AWARDS",
+                                "description":"CLOSING AND AWARDS. July 9th 16:00-18:00 UTC",
+          				"url": "#",
+					"color":"#1b65b7",
+					"start": "2021-07-09T16:00:00Z",
+"end": "2021-07-09T18:00:00Z"
+				}
+
+]
