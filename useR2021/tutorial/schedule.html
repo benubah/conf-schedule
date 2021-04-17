@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Tutorials: UseR! 2021</title>
+
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.6.0/main.min.css" rel="stylesheet">
+<link href="tutorial_schedule.css" rel="stylesheet">
+
+<style>
+
+body .fc { 
+   font-size: 14px;  
+}
+</style>
+
+</head>
+<body>
+<div id='top'>
+
+  <div style='float:left'>
+    Timezone:
+    <select id='time-zone-selector'>
+<option value='America/Los_Angeles'>Los Angeles, Pacific Daylight Time (PDT)</option>
+<option value='utc'>Universal Time Coordinated (UTC)</option>
+<option value='Africa/Lagos'>Lagos, West Africa Time (WAT)</option>
+<option value='Europe/Zurich'>Zurich, Central European Summer Time (CEST)</option>   
+      <option value='Asia/Kolkata'>Mumbai, India Standard Time (IST)</option>
+<option value='Australia/Perth'>Perth, Australian West Standard Time (AWST)</option>
+    </select>
+  </div>
+  <div style='float:right'>
+<img src="user-logo.png" width="80px" height="55px">
+    <span id='loading'>loading...</span>
+
+  </div>
+
+  <div style='clear:both'></div>
+</div>
+
+<div id='calendar' style='width:100%'></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar-scheduler@5.6.0/main.min.js"></script>
+<script src="useR_tutorial.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://fullcalendar.io/releases/fullcalendar/3.10.0/lib/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data-2012-2022.js"></script>
+
+<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
+<script>
+  var x = document.getElementById("time-zone-selector");
+  var option = document.createElement("option");
+option.id = "local"
+  option.value = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  option.innerText = "Local Time";
+  x.add(option, x[0]);
+document.getElementById("local").selected = true; 
+</script>
+</script>
+</body>
+</html>
