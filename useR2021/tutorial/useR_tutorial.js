@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
  timeZone = document.getElementById('time-zone-selector').value;
   var loadingEl = document.getElementById('loading');
   var calendarEl = document.getElementById('calendar');
-var min_time = moment.utc('2021-07-06 06:00').tz(timeZone).format("hh:mm:ss");
+var min_time = moment.utc('2021-07-07 06:00').tz(timeZone).format("hh:mm:ss");
 
 evnt = {
                 url: "useR2021_tutorials.json", //your url,
@@ -30,8 +30,8 @@ views: {
       type: 'resourceTimeGrid',
       duration: { days: 2 },
 visibleRange: {
-    start: '2021-07-06',
-    end: '2021-07-07'
+    start: '2021-07-07',
+    end: '2021-07-08'
   },
       buttonText: 'Time Grid'
     },
@@ -39,8 +39,8 @@ resourceTimelineTwoDay: {
       type: 'resourceTimelineDay',
       duration: { days: 2 },
 visibleRange: {
-    start: '2021-07-06',
-    end: '2021-07-07'
+    start: '2021-07-07',
+    end: '2021-07-08'
   },
       buttonText: 'Timeline'
     },
@@ -49,8 +49,8 @@ timeGridTwoDay: {
       type: 'timeGridDay',
       duration: { days: 2 },
 visibleRange: {
-    start: '2021-07-06',
-    end: '2021-07-07'
+    start: '2021-07-07',
+    end: '2021-07-08'
   },
       buttonText: 'Day'
     }
@@ -70,7 +70,7 @@ visibleRange: {
 ],
 resourceAreaHeaderContent: 'Tracks',
 resourceAreaWidth: '10%',
-initialDate: '2021-07-06',
+initialDate: '2021-07-07',
 //slotMinTime: min_time,
 initialView: 'resourceTimeGridTwoDay',
 
