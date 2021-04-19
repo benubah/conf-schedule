@@ -63,10 +63,10 @@ visibleRange: {
       right: 'resourceTimelineTwoDay,resourceTimeGridTwoDay,timeGridTwoDay'
     },
    resources: [
-	{id: 'Track 1', title: 'Track 1', eventColor: '#0000A3', eventBorderColor:'#000000'},
-{id: 'Track 2', title: 'Track 2', eventColor: '#FFDA94', eventTextColor:'black', eventBorderColor:'#E09200'},
-{id: 'Track 3', title: 'Track 3', eventColor: '#005C00', eventBorderColor:'#00FF00'},
-{id: 'Track 4', title: 'Track 4', eventColor: '#990000', eventBorderColor:'black'}
+	{id: 'Track 1', title: 'Track 1', eventColor: '#E41A1C', eventBorderColor:'#000000'},
+{id: 'Track 2', title: 'Track 2', eventColor: '#DDDEDF', eventTextColor:'black', eventBorderColor:'#898D92'},
+{id: 'Track 3', title: 'Track 3', eventColor: '#3579B1', eventBorderColor:'black'},
+{id: 'Track 4', title: 'Track 4', eventColor: '#FFA500', eventTextColor:'black', eventBorderColor:'#AD5F00'}
 ],
 resourceAreaHeaderContent: 'Tracks',
 resourceAreaWidth: '10%',
