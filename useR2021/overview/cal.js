@@ -31,6 +31,7 @@ visibleRange: {
     end: '2021-07-10'
   },
       buttonText: 'Week'
+    }
     },
     headerToolbar: {
       left: 'prev,next',
