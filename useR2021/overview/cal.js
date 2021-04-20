@@ -22,10 +22,11 @@ v.end = moment.tz(v.end, timeZone).format();
                 }
             };
   var calendar = new FullCalendar.Calendar(calendarEl, {
+    schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
     views: {
     timeGridUseRWeek: {
       type: 'timeGridWeek',
-      duration: { days: 5 },
+      //duration: { days: 5 },
 visibleRange: {
     start: '2021-07-05',
     end: '2021-07-10'
@@ -38,7 +39,7 @@ visibleRange: {
       center: 'title',
       right: 'timeGridUseRWeek,listWeek,dayGridMonth,timeGridDay'
     },
-initialDate: '2021-07-05',
+initialDate: '2021-07-04',
 titleFormat: { // will produce something like "Tuesday, September 18, 2018"
     month: 'long',
     year: 'numeric',
@@ -62,9 +63,9 @@ height: "auto",
         container: 'body'
       });
     },
-dayHeaderContent: (args) => {
-    return moment(args.date).format('dddd Do')
-},
+//dayHeaderContent: (args) => {
+//    return moment(args.date).format('dddd Do')
+//},
 
 events: evnt,
 timeZone: timeZone,
