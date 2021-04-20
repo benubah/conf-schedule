@@ -29,7 +29,8 @@ v.end = moment.tz(v.end, timeZone).format();
 visibleRange: {
     start: '2021-07-05',
     end: '2021-07-10'
-  }
+  },
+      buttonText: 'Week'
     },
     headerToolbar: {
       left: 'prev,next',
@@ -37,11 +38,6 @@ visibleRange: {
       right: 'timeGridUseRWeek,listWeek,dayGridMonth,timeGridDay'
     },
 initialDate: '2021-07-05',
-    validRange: {
-    start: '2021-07-05',
-    end: '2021-07-10'
-  },
-
 titleFormat: { // will produce something like "Tuesday, September 18, 2018"
     month: 'long',
     year: 'numeric',
