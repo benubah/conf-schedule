@@ -28,7 +28,7 @@ v.end = moment.tz(v.end, timeZone).format();
 views: {
     resourceTimeGridTwoDay: {
       type: 'resourceTimeGrid',
-      duration: { days: 2 },
+      duration: { days: 3 },
 visibleRange: {
     start: '2021-07-06',
     end: '2021-07-08'
@@ -37,9 +37,9 @@ visibleRange: {
     },
 resourceTimelineTwoDay: {
       type: 'resourceTimelineDay',
-      duration: { days: 2 },
+      duration: { days: 3 },
 visibleRange: {
-    start: '2021-07-07',
+    start: '2021-07-06',
     end: '2021-07-08'
   },
       buttonText: 'Timeline'
@@ -47,9 +47,9 @@ visibleRange: {
 
 timeGridTwoDay: {
       type: 'timeGridDay',
-      duration: { days: 2 },
+      duration: { days: 3 },
 visibleRange: {
-    start: '2021-07-07',
+    start: '2021-07-06',
     end: '2021-07-08'
   },
       buttonText: 'Day'
