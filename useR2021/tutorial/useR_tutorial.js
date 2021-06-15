@@ -30,7 +30,7 @@ views: {
       type: 'resourceTimeGrid',
       duration: { days: 2 },
 visibleRange: {
-    start: '2021-07-07',
+    start: '2021-07-06',
     end: '2021-07-08'
   },
       buttonText: 'Time Grid'
