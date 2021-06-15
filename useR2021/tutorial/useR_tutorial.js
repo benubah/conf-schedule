@@ -70,7 +70,7 @@ visibleRange: {
 ],
 resourceAreaHeaderContent: 'Tracks',
 resourceAreaWidth: '10%',
-initialDate: '2021-07-07',
+initialDate: '2021-07-06',
 //slotMinTime: min_time,
 initialView: 'resourceTimeGridTwoDay',
 
